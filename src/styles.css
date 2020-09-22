@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+@media (min-width: 1024px) {
+  .App {
+    margin: 0 200px;
+  }
+}
+
+#header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+p,
+li {
+  line-height: 22px;
+}
+#profile-pic {
+  width: 220px;
+  height: 220px;
+  margin: 10px 10px;
+}
